@@ -10,32 +10,25 @@ const Features = ({ id, header, items, columns = 3, hasBackground = false }: Fea
     containerClass="section-spacing container-custom"
   >
     {header && (
-      <div className="text-center max-w-4xl mx-auto mb-16">
+      <div className="text-center max-w-3xl mx-auto mb-12">
         <Headline
           header={header}
-          titleClass="text-3xl md:text-4xl lg:text-5xl font-bold text-neutral-warm-900 mb-6 tracking-tight"
-          subtitleClass="text-lg md:text-xl text-neutral-warm-600 leading-relaxed"
+          titleClass="text-4xl md:text-5xl font-bold text-neutral-warm-900 mb-3 tracking-tight"
+          subtitleClass="text-base md:text-lg text-neutral-warm-600 leading-relaxed"
         />
       </div>
     )}
 
     {items && (
-      <div className={`feature-grid ${
-        columns === 4
-          ? 'lg:grid-cols-4 md:grid-cols-2'
-          : columns === 2
-          ? 'md:grid-cols-2'
-          : 'lg:grid-cols-3 md:grid-cols-2'
-      } gap-8 lg:gap-12`}>
+      <div className={`${columns === 4 ? 'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4' : columns === 2 ? 'grid grid-cols-1 md:grid-cols-2' : 'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3'} gap-6 lg:gap-8`}>
         {items.map(({ title, description, callToAction }, index) => (
           <div
             key={id ? `feature-${id}-${index}` : `feature-${index}`}
-            className="feature-card group"
+            className="bg-white rounded-2xl border border-neutral-warm-200 shadow-card p-6 md:p-7"
           >
-            {/* Content Section - Professional Typography */}
-            <div className="space-y-4">
+            <div className="space-y-3">
               {title && (
-                <h3 className="text-xl md:text-2xl font-bold text-neutral-warm-900 leading-tight">
+                <h3 className="text-lg md:text-xl font-bold text-neutral-warm-900 leading-tight">
                   {title}
                 </h3>
               )}
@@ -47,10 +40,10 @@ const Features = ({ id, header, items, columns = 3, hasBackground = false }: Fea
               )}
 
               {callToAction && (
-                <div className="pt-4">
+                <div className="pt-2">
                   <CTA
                     callToAction={callToAction}
-                    linkClass="inline-flex items-center gap-2 text-primary-600 hover:text-primary-700 font-semibold transition-colors duration-200"
+                    linkClass="inline-flex items-center gap-2 text-primary-700 hover:text-primary-800 font-semibold"
                   />
                 </div>
               )}

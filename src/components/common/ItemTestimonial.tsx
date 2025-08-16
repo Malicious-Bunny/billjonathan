@@ -26,20 +26,20 @@ const ItemTestimonial = ({
       <div className={twMerge(`flex ${isTestimonialUp ? 'flex-col-reverse' : 'flex-col'}`, panelClass)}>
         {((image && name) || (name && job)) && (
           <>
-            <div className={twMerge('flex items-center', dataClass)}>
+            <div className={twMerge('flex items-center gap-3', dataClass)}>
               {image && (
                 <Image
                   src={image.src}
                   width={248}
                   height={248}
                   alt={image.alt}
-                  className={twMerge('object-cover shadow-lg bg-gray-500 dark:bg-slate-700', imageClass)}
+                  className={twMerge('object-cover bg-gray-200', imageClass)}
                 />
               )}
 
               <div className={twMerge('flex flex-col justify-center', nameJobClass)}>
-                {name && <h3 className={twMerge('font-semibold', nameClass)}>{name}</h3>}
-                {job && <span className={twMerge('dark:text-slate-400', jobClass)}>{job}</span>}
+                {name && <h3 className={twMerge('font-semibold text-neutral-warm-900', nameClass)}>{name}</h3>}
+                {job && <span className={twMerge('text-neutral-warm-500', jobClass)}>{job}</span>}
               </div>
             </div>
 
@@ -49,7 +49,7 @@ const ItemTestimonial = ({
 
         {testimonial && (
           <blockquote className={twMerge('flex-auto', testimonialClass)}>
-            <p className="font-light dark:text-slate-400">
+            <p className="font-light text-neutral-warm-700">
               {startSlice !== undefined && endSlice !== undefined
                 ? `" ${testimonial.slice(Number(startSlice), Number(endSlice))}... "`
                 : `" ${testimonial} "`}

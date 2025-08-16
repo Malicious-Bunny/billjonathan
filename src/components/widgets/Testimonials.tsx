@@ -13,67 +13,59 @@ const Testimonials = ({
   id,
   hasBackground = false,
 }: TestimonialsProps) => (
-  <WidgetWrapper id={id ? id : ''} hasBackground={hasBackground} containerClass="">
-    {header && <Headline header={header} titleClass="text-2xl sm:text-3xl" />}
-    <div className="flex items-stretch justify-center">
-      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
-        {testimonials.map(
-          ({ name, job, testimonial, image, href }, index) =>
-            testimonial && (
-              <div
-                key={`item-testimonial-${index}`}
-                className={`card max-w-sm h-full ${
-                  !callToAction && href
-                    ? 'hover:border-primary-600 hover:shadow-lg hover:transition hover:duration-100'
-                    : ''
-                }`}
-              >
-                {!callToAction && href ? (
-                  <Link href={href} target="_blank" rel="noopener noreferrer">
-                    <ItemTestimonial
-                      name={name}
-                      job={job}
-                      testimonial={testimonial}
-                      isTestimonialUp={isTestimonialUp}
-                      hasDividerLine={true}
-                      startSlice={0}
-                      endSlice={150}
-                      image={image}
-                      containerClass="h-full"
-                      panelClass="justify-between items-stretch w-full h-full"
-                      nameJobClass="text-left rtl:text-right"
-                      jobClass="text-sm"
-                      imageClass="mr-4 rtl:mr-0 rtl:ml-4 h-10 w-10 rounded-full"
-                    />
-                  </Link>
-                ) : (
-                  <ItemTestimonial
-                    name={name}
-                    job={job}
-                    testimonial={testimonial}
-                    isTestimonialUp={isTestimonialUp}
-                    hasDividerLine={true}
-                    startSlice={0}
-                    endSlice={150}
-                    image={image}
-                    containerClass="h-full"
-                    panelClass="justify-between items-stretch w-full h-full"
-                    nameJobClass="text-left rtl:text-right"
-                    jobClass="text-sm"
-                    imageClass="mr-4 rtl:mr-0 rtl:ml-4 h-10 w-10 rounded-full"
-                  />
-                )}
-              </div>
-            ),
-        )}
+  <WidgetWrapper id={id ? id : ''} hasBackground={hasBackground} containerClass="section-spacing container-custom">
+    {header && (
+      <div className="text-center max-w-3xl mx-auto mb-10">
+        <Headline header={header} titleClass="text-4xl md:text-5xl font-bold" subtitleClass="text-base md:text-lg text-neutral-warm-600" />
+      </div>
+    )}
+    <div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        {testimonials.map(({ name, job, testimonial, image, href }, index) => (
+          <div key={`item-testimonial-${index}`} className="bg-white rounded-2xl border border-neutral-warm-200 shadow-card p-6 h-full">
+            {!callToAction && href ? (
+              <Link href={href} target="_blank" rel="noopener noreferrer" className="block h-full">
+                <ItemTestimonial
+                  name={name}
+                  job={job}
+                  testimonial={testimonial}
+                  isTestimonialUp={isTestimonialUp}
+                  hasDividerLine={true}
+                  startSlice={0}
+                  endSlice={180}
+                  image={image}
+                  containerClass="h-full"
+                  panelClass="justify-between items-stretch w-full h-full gap-4"
+                  nameJobClass="text-left"
+                  jobClass="text-sm text-neutral-warm-500"
+                  imageClass="mr-4 h-12 w-12 rounded-full"
+                  testimonialClass="text-neutral-warm-700"
+                />
+              </Link>
+            ) : (
+              <ItemTestimonial
+                name={name}
+                job={job}
+                testimonial={testimonial}
+                isTestimonialUp={isTestimonialUp}
+                hasDividerLine={true}
+                startSlice={0}
+                endSlice={180}
+                image={image}
+                containerClass="h-full"
+                panelClass="justify-between items-stretch w-full h-full gap-4"
+                nameJobClass="text-left"
+                jobClass="text-sm text-neutral-warm-500"
+                imageClass="mr-4 h-12 w-12 rounded-full"
+                testimonialClass="text-neutral-warm-700"
+              />
+            )}
+          </div>
+        ))}
       </div>
     </div>
     {callToAction && (
-      <CTA
-        callToAction={callToAction}
-        containerClass="flex justify-center mx-auto w-fit mt-8 md:mt-12"
-        linkClass="btn"
-      />
+      <CTA callToAction={callToAction} containerClass="flex justify-center mx-auto w-fit mt-10" linkClass="btn btn-primary" />
     )}
   </WidgetWrapper>
 );

@@ -26,9 +26,9 @@ export default function RootLayout({ children }: LayoutProps) {
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link href="https://api.fontshare.com/v2/css?f[]=spline-sans@400&f[]=quicksand@200&display=swap" rel="stylesheet" />
+        <link href="https://api.fontshare.com/v2/css?f[]=supreme@400&f[]=chubbo@700&display=swap" rel="stylesheet" />
       </head>
-      <body className="tracking-tight antialiased text-gray-900 dark:text-slate-300 dark:bg-slate-900">
+      <body className="tracking-tight antialiased text-gray-900">
         <Providers>
           <Header />
           <main>{children}</main>

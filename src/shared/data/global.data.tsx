@@ -88,14 +88,9 @@ export const headerData: HeaderProps = {
       href: 'mailto:support@andersoncarlconsultancy.uk',
       icon: IconMail,
     },
-    {
-      text: 'Get Quote',
-      href: '/contact',
-      variant: 'primary',
-    },
   ],
   isSticky: true,
-  showToggleTheme: true,
+  showToggleTheme: false,
   showRssFeed: false,
   position: 'right',
 };
