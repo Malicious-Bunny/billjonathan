@@ -1,0 +1,211 @@
+import {
+  IconBrandFacebook,
+  IconBrandInstagram,
+  IconBrandLinkedin,
+  IconBrandWhatsapp,
+  IconChevronDown,
+  IconPhone,
+  IconMail,
+  IconMapPin,
+  IconClock,
+} from '@tabler/icons-react';
+import { AnnouncementProps, FooterProps, HeaderProps } from '../types';
+
+// Announcement data
+export const announcementData: AnnouncementProps = {
+  title: '24 HOUR SERVICE AVAILABLE',
+  callToAction: {
+    text: 'Email Us: support@andersoncarlconsultancy.uk »',
+    href: 'mailto:support@andersoncarlconsultancy.uk',
+  },
+  callToAction2: {
+    text: 'WhatsApp: +44 7940 233536',
+    href: 'https://wa.me/447940233536',
+  },
+};
+
+// Header data
+export const headerData: HeaderProps = {
+  links: [
+    {
+      label: 'Blog',
+      href: '/blog',
+    },
+    {
+      label: 'Services',
+      icon: IconChevronDown,
+      links: [
+        {
+          label: 'UK Passport Services',
+          href: '/us-passport',
+        },
+        {
+          label: 'Driver Licence Services',
+          href: '/drivers-license',
+        },
+        {
+          label: 'Immigration Documents',
+          href: '/adjustment-of-status',
+        },
+        {
+          label: 'Civil Documents',
+          href: '/birth-certificate',
+        },
+        {
+          label: 'IELTS/PTE Certificates',
+          href: '/certificate-of-citizenship',
+        },
+        {
+          label: 'UK Death Certificate',
+          href: '/certificate-of-naturalization',
+        },
+        {
+          label: 'Marriage Certificate',
+          href: '/marriage-certificate',
+        },
+        {
+          label: 'Birth Certificate',
+          href: '/birth-certificate',
+        },
+        {
+          label: 'Complete Document Package',
+          href: '/complete-document-package',
+        },
+      ],
+    },
+    {
+      label: 'About Us',
+      href: '/about',
+    },
+    {
+      label: 'Contact',
+      href: '/contact',
+    },
+  ],
+  actions: [
+    {
+      text: 'support@andersoncarlconsultancy.uk',
+      href: 'mailto:support@andersoncarlconsultancy.uk',
+      icon: IconMail,
+    },
+    {
+      text: 'Get Quote',
+      href: '/contact',
+      variant: 'primary',
+    },
+  ],
+  isSticky: true,
+  showToggleTheme: true,
+  showRssFeed: false,
+  position: 'right',
+};
+
+// Footer data
+export const footerData: FooterProps = {
+  title: 'Anderson Carl',
+  subtitle: 'Life in the UK Documents Specialist',
+  description: 'Professional assistance with UK documentation processes. We simplify your Life in the UK document applications and handle all the paperwork for you, ensuring a stress-free experience.',
+  columns: [
+    {
+      title: 'Our Services',
+      links: [
+        { label: 'UK Passport Application', href: '/us-passport' },
+        { label: 'Driver Licence Services', href: '/drivers-license' },
+        { label: 'Immigration Documents', href: '/adjustment-of-status' },
+        { label: 'Civil Documents', href: '/birth-certificate' },
+        { label: 'IELTS Certificate', href: '/certificate-of-citizenship' },
+        { label: 'PTE Certificate', href: '/certificate-of-naturalization' },
+        { label: 'UK Marriage Certificate', href: '/marriage-certificate' },
+        { label: 'Complete Document Package', href: '/complete-document-package' },
+      ],
+    },
+    {
+      title: 'Quick Links',
+      links: [
+        { label: 'Home', href: '/' },
+        { label: 'Blog', href: '/blog' },
+        { label: 'About Us', href: '/about' },
+        { label: 'Services', href: '/services' },
+        { label: 'Contact Us', href: '/contact' },
+        { label: 'Privacy Policy', href: '/privacy' },
+        { label: 'Terms & Conditions', href: '/terms' },
+      ],
+    },
+  ],
+  links: [
+    { label: 'Terms & Conditions', href: '/terms' },
+    { label: 'Privacy Policy', href: '/privacy' },
+  ],
+  socials: [
+    { label: 'WhatsApp', icon: IconBrandWhatsapp, href: 'https://wa.me/447940233536' },
+  ],
+  footNote: '© 2025 Anderson Carl Life in the UK Documents. All rights reserved. | Professional documentation services for UK residents.',
+  theme: 'dark',
+};
+
+// Contact information
+export const contactData = {
+  hasBackground: true,
+  header: {
+    title: 'Get A Consultation',
+    subtitle: 'Professional UK Document Assistance',
+    highlight: 'Contact Anderson Carl',
+  },
+  content: 'We are here to answer your questions 24/7. Get expert consultation for all your UK document needs.',
+  items: [
+    {
+      title: 'Email us',
+      description: 'support@andersoncarlconsultancy.uk',
+      icon: IconMail,
+      href: 'mailto:support@andersoncarlconsultancy.uk',
+    },
+    {
+      title: 'WhatsApp',
+      description: '+44 7940 233536',
+      icon: IconBrandWhatsapp,
+      href: 'https://wa.me/447940233536',
+    },
+    {
+      title: 'Office Location',
+      description: 'Central London, UK',
+      icon: IconMapPin,
+    },
+    {
+      title: 'Available',
+      description: '24/7 Support',
+      icon: IconClock,
+    },
+  ],
+  form: {
+    inputs: [
+      {
+        type: 'text',
+        name: 'name',
+        placeholder: 'Your name',
+        autocomplete: 'given-name',
+      },
+      {
+        type: 'email',
+        name: 'email',
+        placeholder: 'Your email address',
+        autocomplete: 'email',
+      },
+    ],
+    textarea: {
+      cols: 30,
+      rows: 5,
+      name: 'textarea',
+      placeholder: 'Tell us about your document requirements...',
+    },
+    checkboxes: [
+      {
+        label: 'I agree to receive consultation emails and updates',
+        value: '',
+      },
+    ],
+    btn: {
+      title: 'Send Consultation Request',
+      type: 'submit',
+    },
+  },
+};
