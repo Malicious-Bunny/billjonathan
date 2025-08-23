@@ -37,39 +37,39 @@ export const headerData: HeaderProps = {
       links: [
         {
           label: 'UK Passport Services',
-          href: '/us-passport',
+          href: '/passport',
         },
         {
           label: 'Driver Licence Services',
-          href: '/drivers-license',
+          href: '/driver-licence',
         },
         {
-          label: 'Immigration Documents',
-          href: '/adjustment-of-status',
+          label: 'Visa Renewal',
+          href: '/visa-renewal',
         },
         {
-          label: 'Civil Documents',
-          href: '/birth-certificate',
+          label: 'PTE Certificate',
+          href: '/pte-certificate',
         },
         {
-          label: 'IELTS/PTE Certificates',
-          href: '/certificate-of-citizenship',
+          label: 'IELTS Certificate',
+          href: '/ielts-certificate',
         },
         {
           label: 'UK Death Certificate',
-          href: '/certificate-of-naturalization',
+          href: '/uk-death-certificate',
         },
         {
           label: 'Marriage Certificate',
-          href: '/marriage-certificate',
+          href: '/uk-marriage-certificate',
         },
         {
           label: 'Birth Certificate',
-          href: '/birth-certificate',
+          href: '/uk-birth-certificate',
         },
         {
-          label: 'Complete Document Package',
-          href: '/complete-document-package',
+          label: 'Resident Permit',
+          href: '/resident-permit',
         },
       ],
     },

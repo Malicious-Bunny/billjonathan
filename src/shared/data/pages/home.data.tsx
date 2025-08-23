@@ -195,13 +195,13 @@ export const servicesHome: ServicesProps = {
       title: 'Driver Licence Services',
       description: 'Professional help with driver licence applications, renewals, and replacements for all UK licence categories. All services completed without taking any tests - certificate handed to you after processing.',
       image: {
-        src: 'https://ext.same-assets.com/542609343/1481361524.jpeg',
+        src: '/driverlicense-1.jpg',
         alt: 'UK Driver Licence Services',
       },
       icon: IconCertificate,
       callToAction: {
         text: 'Learn More',
-        href: '/drivers-license',
+        href: '/driver-licence',
       },
       badges: [
         {
@@ -220,13 +220,13 @@ export const servicesHome: ServicesProps = {
       title: 'Passport Services',
       description: 'Complete assistance with UK passport applications, renewals, and replacements with expert guidance through every step. Processing time: 4 days.',
       image: {
-        src: 'https://ext.same-assets.com/542609343/442901201.jpeg',
+        src: '/passport-2.jpg',
         alt: 'UK Passport Services',
       },
       icon: IconFileText,
       callToAction: {
         text: 'Learn More',
-        href: '/us-passport',
+        href: '/passport',
       },
       badges: [
         {
@@ -241,16 +241,16 @@ export const servicesHome: ServicesProps = {
       ],
     },
     {
-      title: 'Immigration Documents',
+      title: 'Visa Renewal',
       description: 'Expert assistance with residence permits, visa renewals, and other immigration-related documentation. Processing time varies by service.',
       image: {
-        src: 'https://ext.same-assets.com/542609343/3252500394.jpeg',
+        src: '/passport-3.jpg',
         alt: 'Immigration Documents',
       },
       icon: IconUsers,
       callToAction: {
         text: 'Learn More',
-        href: '/adjustment-of-status',
+        href: '/visa-renewal',
       },
       badges: [
         {
@@ -268,13 +268,13 @@ export const servicesHome: ServicesProps = {
       title: 'Civil Documents',
       description: 'Official UK civil documents including birth certificates, marriage certificates, death certificates and other vital records. Processing time: 1-2 days.',
       image: {
-        src: 'https://ext.same-assets.com/542609343/461631757.jpeg',
+        src: '/passport-2.jpg',
         alt: 'UK Civil Documents',
       },
       icon: IconCertificate,
       callToAction: {
         text: 'Learn More',
-        href: '/birth-certificate',
+        href: '/uk-birth-certificate',
       },
       badges: [
         {
@@ -292,13 +292,13 @@ export const servicesHome: ServicesProps = {
       title: 'Language Certificates',
       description: 'Professional support with IELTS, PTE, and other English language certification processes. No test required - certificate handed to you after 3 days processing.',
       image: {
-        src: 'https://ext.same-assets.com/542609343/3252500394.jpeg',
+        src: '/pte-2.jpg',
         alt: 'Language Certificates',
       },
       icon: IconAward,
       callToAction: {
         text: 'Learn More',
-        href: '/certificate-of-citizenship',
+        href: '/ielts-certificate',
       },
       badges: [
         {
@@ -316,13 +316,13 @@ export const servicesHome: ServicesProps = {
       title: 'UK Death Certificate',
       description: 'Expedited official UK death certificate applications for urgent legal and probate requirements. Processing time: 1-2 working days.',
       image: {
-        src: 'https://ext.same-assets.com/542609343/461631757.jpeg',
+        src: '/driverlicense-4.jpg',
         alt: 'UK Death Certificate',
       },
       icon: IconFileText,
       callToAction: {
         text: 'Learn More',
-        href: '/certificate-of-naturalization',
+        href: '/uk-death-certificate',
       },
       badges: [
         {
@@ -390,29 +390,29 @@ export const testimonialsHome: TestimonialsProps = {
   testimonials: [
     {
       testimonial: `Anderson Carl made the entire process smooth and hassle-free. His professional consultation was excellent and very thorough!`,
-      name: 'Sarah Williams',
+      name: 'Mohamed Bashir',
       job: 'UK Resident',
       image: {
-        src: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=256&q=80',
-        alt: 'Sarah Williams',
+        src: '',
+        alt: 'Mohamed Bashir',
       },
     },
     {
       testimonial: `I was skeptical at first, but Anderson Carl delivered as promised. Highly recommended for UK document assistance!`,
-      name: 'Michael Johnson',
+      name: 'Ahmed Fahti',
       job: 'Immigration Client',
       image: {
-        src: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=256&q=80',
-        alt: 'Michael Johnson',
+        src: '',
+        alt: 'ahmed fahti',
       },
     },
     {
       testimonial: `Professional service with clear guidance. Anderson Carl helped me get my documents without any issues or delays.`,
-      name: 'Emma Thompson',
+      name: 'Rashir Pooja',
       job: 'Professional Client',
       image: {
-        src: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=256&q=80',
-        alt: 'Emma Thompson',
+        src: '',
+        alt: 'rashir pooja',
       },
     },
   ],
