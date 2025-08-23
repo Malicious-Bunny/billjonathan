@@ -11,11 +11,11 @@ export default function PassportService() {
     <>
       {/* Hero Section */}
       <section className="py-16">
-        <div className="container">
+        <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto text-center">
             <nav className="text-blue-600 mb-4">
-              <Link href="/" className="hover:text-blue-800">Home</Link> /
-              <Link href="/#services" className="hover:text-blue-800"> Services</Link> /
+              <Link href="/" className="hover:text-primary-800">Home</Link> /
+              <Link href="/#services" className="hover:text-primary-800"> Services</Link> /
               <span className="text-blue-900 font-semibold"> Passport Application</span>
             </nav>
             <h1 className="text-4xl md:text-5xl font-bold mb-6 text-blue-900">
@@ -24,7 +24,7 @@ export default function PassportService() {
             <p className="text-xl text-gray-700 mb-8 max-w-3xl mx-auto">
               Fast, comprehensive assistance - streamline your UK passport application with expert guidance from start to finish. We handle the paperwork so you don't have to.
             </p>
-            <div className="bg-blue-900 text-white rounded-lg p-6 inline-block">
+            <div className="bg-primary-900 text-white rounded-lg p-6 inline-block">
               <p className="text-2xl font-bold text-white mb-2">Service Fee: From £500</p>
               <p className="text-blue-200 mb-2">Processing Time: 4 days</p>
               <p className="text-blue-200">Complete passport application assistance</p>
@@ -47,7 +47,7 @@ export default function PassportService() {
 
       {/* Service Details */}
       <section className="py-16">
-        <div className="container">
+        <div className="container max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
             <div>
               <h2 className="text-3xl font-bold text-blue-900 mb-6">What We Offer</h2>
@@ -124,7 +124,7 @@ export default function PassportService() {
                 </li>
               </ul>
 
-              <div className="bg-blue-900 text-white rounded-lg p-6 mb-6">
+              <div className="bg-primary-900 text-white rounded-lg p-6 mb-6">
                 <h4 className="text-lg font-semibold mb-3">Service Fees:</h4>
                 <div className="mb-3">
                   <p className="text-blue-200">• New Application: £1,500</p>
@@ -136,7 +136,7 @@ export default function PassportService() {
                   Includes complete application assistance, document review,
                   and follow-up support until completion.
                 </p>
-                <p className="text-sm text-blue-300">
+                <p className="text-sm text-primary-300">
                   * UK Government passport fees are additional and paid directly to HM Passport Office
                 </p>
               </div>
@@ -172,7 +172,7 @@ export default function PassportService() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="bg-blue-900 text-white w-16 h-16 rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">
+              <div className="bg-primary-900 text-white w-16 h-16 rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">
                 01
               </div>
               <h3 className="text-xl font-bold text-blue-900 mb-3">Initial Consultation</h3>
@@ -181,7 +181,7 @@ export default function PassportService() {
               </p>
             </div>
             <div className="text-center">
-              <div className="bg-blue-900 text-white w-16 h-16 rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">
+              <div className="bg-primary-900 text-white w-16 h-16 rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">
                 02
               </div>
               <h3 className="text-xl font-bold text-blue-900 mb-3">Document Preparation</h3>
@@ -190,7 +190,7 @@ export default function PassportService() {
               </p>
             </div>
             <div className="text-center">
-              <div className="bg-blue-900 text-white w-16 h-16 rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">
+              <div className="bg-primary-900 text-white w-16 h-16 rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">
                 03
               </div>
               <h3 className="text-xl font-bold text-blue-900 mb-3">Application Submission</h3>
@@ -199,7 +199,7 @@ export default function PassportService() {
               </p>
             </div>
             <div className="text-center">
-              <div className="bg-blue-900 text-white w-16 h-16 rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">
+              <div className="bg-primary-900 text-white w-16 h-16 rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">
                 04
               </div>
               <h3 className="text-xl font-bold text-blue-900 mb-3">Follow-up & Delivery</h3>
@@ -251,7 +251,7 @@ export default function PassportService() {
       </section>
 
       {/* Contact CTA */}
-      <section className="py-16 bg-blue-900 text-white">
+      <section className="py-16 bg-primary-900 text-white">
         <div className="container">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-6">Ready to Start Your Passport Application?</h2>

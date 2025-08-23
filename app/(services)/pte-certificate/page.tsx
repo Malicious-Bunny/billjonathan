@@ -25,7 +25,7 @@ export default function PTECertificateService() {
               Professional assistance with PTE (Pearson Test of English) certification.
               We guide you through the entire process from registration to results.
             </p>
-            <div className="bg-blue-900 text-white rounded-lg p-6 inline-block">
+            <div className="bg-primary-900 text-white rounded-lg p-6 inline-block">
               <p className="text-2xl font-bold text-white mb-2">Service Fee: £620</p>
               <p className="text-purple-200 mb-2">Processing Time: 3 days</p>
               <p className="text-blue-200">Comprehensive PTE certification assistance</p>
@@ -122,14 +122,14 @@ export default function PTECertificateService() {
                 </li>
               </ul>
 
-              <div className="bg-blue-900 text-white rounded-lg p-6 mb-6">
+              <div className="bg-primary-900 text-white rounded-lg p-6 mb-6">
                 <h4 className="text-lg font-semibold mb-3">Service Fee: £620</h4>
                 <p className="text-purple-200 mb-2"><strong>Processing Time: 3 days</strong></p>
                 <p className="text-blue-200 mb-4">
                   Includes test registration assistance, preparation guidance,
                   and score verification support.
                 </p>
-                <p className="text-sm text-blue-300">
+                <p className="text-sm text-primary-300">
                   * PTE Academic test fees are additional and paid directly to Pearson
                 </p>
               </div>
@@ -165,7 +165,7 @@ export default function PTECertificateService() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="bg-blue-900 text-white w-16 h-16 rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">
+              <div className="bg-primary-900 text-white w-16 h-16 rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">
                 01
               </div>
               <h3 className="text-xl font-bold text-blue-900 mb-3">Assessment & Planning</h3>
@@ -174,7 +174,7 @@ export default function PTECertificateService() {
               </p>
             </div>
             <div className="text-center">
-              <div className="bg-blue-900 text-white w-16 h-16 rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">
+              <div className="bg-primary-900 text-white w-16 h-16 rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">
                 02
               </div>
               <h3 className="text-xl font-bold text-blue-900 mb-3">Test Registration</h3>
@@ -183,7 +183,7 @@ export default function PTECertificateService() {
               </p>
             </div>
             <div className="text-center">
-              <div className="bg-blue-900 text-white w-16 h-16 rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">
+              <div className="bg-primary-900 text-white w-16 h-16 rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">
                 03
               </div>
               <h3 className="text-xl font-bold text-blue-900 mb-3">Preparation Support</h3>
@@ -192,7 +192,7 @@ export default function PTECertificateService() {
               </p>
             </div>
             <div className="text-center">
-              <div className="bg-blue-900 text-white w-16 h-16 rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">
+              <div className="bg-primary-900 text-white w-16 h-16 rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">
                 04
               </div>
               <h3 className="text-xl font-bold text-blue-900 mb-3">Score Assistance</h3>
@@ -244,7 +244,7 @@ export default function PTECertificateService() {
       </section>
 
       {/* Contact CTA */}
-      <section className="py-16 bg-blue-900 text-white">
+      <section className="py-16 bg-primary-900 text-white">
         <div className="container">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-6">Ready to Start Your PTE Journey?</h2>

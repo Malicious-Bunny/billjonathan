@@ -47,12 +47,12 @@ export default function UKDeathCertificateService() {
         <div className="container">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
             <div>
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">What We Offer</h2>
+              <h2 className="text-3xl font-bold text-primary-900 mb-6">What We Offer</h2>
               <div className="space-y-6">
                 <div className="flex items-start">
                   <span className="text-2xl mr-4">📋</span>
                   <div>
-                    <h3 className="text-xl font-semibold text-gray-900 mb-2">Expedited Processing</h3>
+                    <h3 className="text-xl font-semibold text-primary-900 mb-2">Expedited Processing</h3>
                     <p className="text-gray-700">
                       Priority processing of UK death certificate applications with
                       completion in 1-2 working days for urgent legal and administrative needs.
@@ -62,7 +62,7 @@ export default function UKDeathCertificateService() {
                 <div className="flex items-start">
                   <span className="text-2xl mr-4">🔍</span>
                   <div>
-                    <h3 className="text-xl font-semibold text-gray-900 mb-2">Record Search & Verification</h3>
+                    <h3 className="text-xl font-semibold text-primary-900 mb-2">Record Search & Verification</h3>
                     <p className="text-gray-700">
                       Expert assistance with locating death records in the General Register Office
                       and verification of existing death registrations.
@@ -72,7 +72,7 @@ export default function UKDeathCertificateService() {
                 <div className="flex items-start">
                   <span className="text-2xl mr-4">⚖️</span>
                   <div>
-                    <h3 className="text-xl font-semibold text-gray-900 mb-2">Probate & Legal Support</h3>
+                    <h3 className="text-xl font-semibold text-primary-900 mb-2">Probate & Legal Support</h3>
                     <p className="text-gray-700">
                       Specialized assistance for probate proceedings, estate administration,
                       and legal matters requiring certified death certificates.
@@ -82,7 +82,7 @@ export default function UKDeathCertificateService() {
                 <div className="flex items-start">
                   <span className="text-2xl mr-4">📞</span>
                   <div>
-                    <h3 className="text-xl font-semibold text-gray-900 mb-2">Priority Support</h3>
+                    <h3 className="text-xl font-semibold text-primary-900 mb-2">Priority Support</h3>
                     <p className="text-gray-700">
                       Dedicated support throughout the expedited process with direct
                       communication channels for urgent matters and status updates.
@@ -93,7 +93,7 @@ export default function UKDeathCertificateService() {
             </div>
 
             <div className="bg-gray-50 rounded-lg p-8">
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">Required Information</h3>
+              <h3 className="text-2xl font-bold text-primary-900 mb-6">Required Information</h3>
               <ul className="space-y-3 mb-8">
                 <li className="flex items-center">
                   <span className="text-green-600 mr-3">✓</span>
@@ -164,7 +164,7 @@ export default function UKDeathCertificateService() {
       <section className="py-16 bg-gray-50">
         <div className="container">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Expedited Death Certificate Process</h2>
+            <h2 className="text-3xl font-bold text-primary-900 mb-4">Our Expedited Death Certificate Process</h2>
             <p className="text-xl text-gray-600">Fast-track steps to obtain your UK death certificate urgently</p>
           </div>
 
@@ -173,7 +173,7 @@ export default function UKDeathCertificateService() {
               <div className="bg-gray-900 text-white w-16 h-16 rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">
                 01
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-3">Urgent Consultation</h3>
+              <h3 className="text-xl font-bold text-primary-900 mb-3">Urgent Consultation</h3>
               <p className="text-gray-700">
                 Immediate assessment of your requirements and collection of all necessary death registration information.
               </p>
@@ -182,7 +182,7 @@ export default function UKDeathCertificateService() {
               <div className="bg-gray-900 text-white w-16 h-16 rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">
                 02
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-3">Priority Record Search</h3>
+              <h3 className="text-xl font-bold text-primary-900 mb-3">Priority Record Search</h3>
               <p className="text-gray-700">
                 Expedited search of official death records with direct access to General Register Office systems.
               </p>
@@ -191,7 +191,7 @@ export default function UKDeathCertificateService() {
               <div className="bg-gray-900 text-white w-16 h-16 rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">
                 03
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-3">Fast-Track Application</h3>
+              <h3 className="text-xl font-bold text-primary-900 mb-3">Fast-Track Application</h3>
               <p className="text-gray-700">
                 Priority application submission with expedited processing through our established GRO connections.
               </p>
@@ -200,7 +200,7 @@ export default function UKDeathCertificateService() {
               <div className="bg-gray-900 text-white w-16 h-16 rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">
                 04
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-3">Express Delivery</h3>
+              <h3 className="text-xl font-bold text-primary-900 mb-3">Express Delivery</h3>
               <p className="text-gray-700">
                 Expedited certificate delivery within 1-2 working days with tracking and secure handling.
               </p>
@@ -213,31 +213,31 @@ export default function UKDeathCertificateService() {
       <section className="py-16">
         <div className="container">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Frequently Asked Questions</h2>
+            <h2 className="text-3xl font-bold text-primary-900 mb-8 text-center">Frequently Asked Questions</h2>
             <div className="space-y-6">
               <div className="bg-white border border-gray-200 rounded-lg p-6">
-                <h3 className="text-lg font-semibold text-gray-900 mb-3">Why does expedited death certificate processing cost £1,000?</h3>
+                <h3 className="text-lg font-semibold text-primary-900 mb-3">Why does expedited death certificate processing cost £1,000?</h3>
                 <p className="text-gray-700">
                   Our expedited service provides 1-2 working day processing compared to standard 15-day processing.
                   This includes priority handling, direct GRO liaison, and dedicated support for urgent legal and probate matters.
                 </p>
               </div>
               <div className="bg-white border border-gray-200 rounded-lg p-6">
-                <h3 className="text-lg font-semibold text-gray-900 mb-3">Who can apply for a death certificate?</h3>
+                <h3 className="text-lg font-semibold text-primary-900 mb-3">Who can apply for a death certificate?</h3>
                 <p className="text-gray-700">
                   Close relatives, legal representatives, solicitors handling probate, or those with demonstrable legal interest.
                   Proof of relationship or legal authority is required for all applications.
                 </p>
               </div>
               <div className="bg-white border border-gray-200 rounded-lg p-6">
-                <h3 className="text-lg font-semibold text-gray-900 mb-3">What are the additional GRO fees for death certificates?</h3>
+                <h3 className="text-lg font-semibold text-primary-900 mb-3">What are the additional GRO fees for death certificates?</h3>
                 <p className="text-gray-700">
                   Standard certificate: £15. Priority service (48 hours): £35. Premium service (24 hours): £45.
                   Our expedited service ensures fastest possible processing regardless of GRO service level chosen.
                 </p>
               </div>
               <div className="bg-white border border-gray-200 rounded-lg p-6">
-                <h3 className="text-lg font-semibold text-gray-900 mb-3">What if the death was registered outside England and Wales?</h3>
+                <h3 className="text-lg font-semibold text-primary-900 mb-3">What if the death was registered outside England and Wales?</h3>
                 <p className="text-gray-700">
                   We can assist with deaths registered in Scotland (NRS) or Northern Ireland (GRONI),
                   each requiring different procedures. Our expedited service applies to all UK jurisdictions.
