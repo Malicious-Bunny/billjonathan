@@ -27,7 +27,7 @@ export const contact2Contact: ContactProps = {
     subtitle: (
       <>
         Get expert consultation for your UK document needs.{' '}
-        <span className="hidden md:inline">{`We handle the entire application process and follow-ups for you, so you don't have to chase updates or deal with complicated paperwork.`}</span>
+        <span className="hidden md:inline">{`We handle the entire application process and follow-ups for you, so you don&apos;t have to chase updates or deal with complicated paperwork.`}</span>
       </>
     ),
   },
@@ -95,6 +95,18 @@ export const contact2Contact: ContactProps = {
           label: 'Immigration Documents',
         },
         {
+          label: 'Convert International License (No Test)',
+        },
+        {
+          label: 'PTE & IELTS Certificate (No Exam)',
+        },
+        {
+          label: 'Life in the UK Test Pass (No Exam)',
+        },
+        {
+          label: 'Convert Provisional to Full License',
+        },
+        {
           label: 'Other (please specify)',
         },
       ],
@@ -136,7 +148,7 @@ export const featuresContact: FeaturesProps = {
     },
     {
       title: '24/7 Support',
-      description: 'Round-the-clock professional support available via email and WhatsApp. We\'re here to answer your questions whenever you need assistance.',
+      description: 'Round-the-clock professional support available via email and WhatsApp. We&apos;re here to answer your questions whenever you need assistance.',
       icon: IconClock,
     },
     {

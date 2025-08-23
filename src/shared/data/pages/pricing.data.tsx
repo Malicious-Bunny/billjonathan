@@ -117,7 +117,7 @@ export const comparisonPricing: ComparisonProps = {
   id: 'comparison-on-pricing',
   hasBackground: false,
   header: {
-    title: "What's available for each plan?",
+    title: "What&apos;s available for each plan?",
     subtitle:
       'Morbi ut imperdiet ex. Nullam sed tincidunt purus. Donec finibus dui at odio dictum facilisis. Maecenas ut orci quis nisi congue maximus. Sed quis augue sapien.',
     // tagline: 'Comparison',

@@ -22,7 +22,7 @@ export default function PassportService() {
               UK Passport Application Service
             </h1>
             <p className="text-xl text-gray-700 mb-8 max-w-3xl mx-auto">
-              Fast, comprehensive assistance - streamline your UK passport application with expert guidance from start to finish. We handle the paperwork so you don't have to.
+              Fast, comprehensive assistance - streamline your UK passport application with expert guidance from start to finish. We handle the paperwork so you don&apos;t have to.
             </p>
             <div className="bg-primary-900 text-white rounded-lg p-6 inline-block">
               <p className="text-2xl font-bold text-white mb-2">Service Fee: From £500</p>

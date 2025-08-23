@@ -234,7 +234,7 @@ export default function PTECertificateService() {
               <div className="bg-white border border-gray-200 rounded-lg p-6">
                 <h3 className="text-lg font-semibold text-blue-900 mb-3">Can I retake PTE Academic if needed?</h3>
                 <p className="text-gray-700">
-                  Yes, you can retake PTE Academic as many times as needed. There's no limit,
+                  Yes, you can retake PTE Academic as many times as needed. There&apos;s no limit,
                   but we recommend adequate preparation between attempts for score improvement.
                 </p>
               </div>

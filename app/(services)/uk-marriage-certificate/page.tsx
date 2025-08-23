@@ -113,7 +113,7 @@ export default function UKMarriageCertificateService() {
                 </li>
                 <li className="flex items-center">
                   <span className="text-green-600 mr-3">✓</span>
-                  <span>Father's names (if available)</span>
+                  <span>Father&apos;s names (if available)</span>
                 </li>
                 <li className="flex items-center">
                   <span className="text-green-600 mr-3">✓</span>
@@ -169,7 +169,7 @@ export default function UKMarriageCertificateService() {
               </div>
               <h3 className="text-xl font-bold text-primary-900 mb-3">Information Gathering</h3>
               <p className="text-gray-700">
-                We collect all necessary information about the marriage registration you're seeking.
+                We collect all necessary information about the marriage registration you&apos;re seeking.
               </p>
             </div>
             <div className="text-center">
@@ -226,12 +226,12 @@ export default function UKMarriageCertificateService() {
               <div className="bg-white border border-gray-200 rounded-lg p-6">
                 <h3 className="text-lg font-semibold text-primary-900 mb-3">Can I get a marriage certificate for my parents?</h3>
                 <p className="text-gray-700">
-                  You can apply for your parents' marriage certificate if you can prove you are their child.
+                  You can apply for your parents&apos; marriage certificate if you can prove you are their child.
                   Birth certificate or other proof of relationship is required.
                 </p>
               </div>
               <div className="bg-white border border-gray-200 rounded-lg p-6">
-                <h3 className="text-lg font-semibold text-primary-900 mb-3">What if the marriage wasn't registered in England or Wales?</h3>
+                <h3 className="text-lg font-semibold text-primary-900 mb-3">What if the marriage wasn&apos;t registered in England or Wales?</h3>
                 <p className="text-gray-700">
                   We can assist with marriages registered in Scotland (NRS) or Northern Ireland (GRONI),
                   each with different procedures and requirements.

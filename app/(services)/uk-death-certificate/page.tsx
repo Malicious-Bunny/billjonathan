@@ -113,7 +113,7 @@ export default function UKDeathCertificateService() {
                 </li>
                 <li className="flex items-center">
                   <span className="text-green-600 mr-3">✓</span>
-                  <span>Spouse's name (if applicable)</span>
+                  <span>Spouse&apos;s name (if applicable)</span>
                 </li>
                 <li className="flex items-center">
                   <span className="text-green-600 mr-3">✓</span>

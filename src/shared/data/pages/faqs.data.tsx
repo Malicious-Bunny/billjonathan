@@ -41,7 +41,7 @@ export const faqs4Faqs: FAQsProps = {
         },
         {
           title: 'Do you really provide 24/7 support?',
-          description: `Yes, we provide round-the-clock support for our clients. Questions and urgent matters don't wait for business hours, and neither do we. Our comprehensive support continues until your documents are successfully delivered.`,
+          description: `Yes, we provide round-the-clock support for our clients. Questions and urgent matters don&apos;t wait for business hours, and neither do we. Our comprehensive support continues until your documents are successfully delivered.`,
         },
         {
           title: 'Can you help clients outside of London?',

@@ -109,11 +109,11 @@ export default function UKBirthCertificateService() {
                 </li>
                 <li className="flex items-center">
                   <span className="text-green-600 mr-3">✓</span>
-                  <span>Mother's full name (including maiden name)</span>
+                  <span>Mother&apos;s full name (including maiden name)</span>
                 </li>
                 <li className="flex items-center">
                   <span className="text-green-600 mr-3">✓</span>
-                  <span>Father's full name (if known)</span>
+                  <span>Father&apos;s full name (if known)</span>
                 </li>
                 <li className="flex items-center">
                   <span className="text-green-600 mr-3">✓</span>
@@ -169,7 +169,7 @@ export default function UKBirthCertificateService() {
               </div>
               <h3 className="text-xl font-bold text-primary-900 mb-3">Information Gathering</h3>
               <p className="text-gray-700">
-                We collect all necessary information about the birth registration you're seeking.
+                We collect all necessary information about the birth registration you&apos;re seeking.
               </p>
             </div>
             <div className="text-center">
@@ -231,7 +231,7 @@ export default function UKBirthCertificateService() {
                 </p>
               </div>
               <div className="bg-white border border-gray-200 rounded-lg p-6">
-                <h3 className="text-lg font-semibold text-primary-900 mb-3">What if the birth wasn't registered in England or Wales?</h3>
+                <h3 className="text-lg font-semibold text-primary-900 mb-3">What if the birth wasn&apos;t registered in England or Wales?</h3>
                 <p className="text-gray-700">
                   We can assist with births registered in Scotland (NRS) or Northern Ireland (GRONI),
                   each with different procedures and requirements.

@@ -231,7 +231,7 @@ export default function IELTSCertificateService() {
                 </p>
               </div>
               <div className="bg-white border border-gray-200 rounded-lg p-6">
-                <h3 className="text-lg font-semibold text-primary-900 mb-3">Can I retake IELTS if I don't get the required score?</h3>
+                <h3 className="text-lg font-semibold text-primary-900 mb-3">Can I retake IELTS if I don&apos;t get the required score?</h3>
                 <p className="text-gray-700">
                   Yes, you can retake IELTS as many times as needed. We recommend waiting to identify
                   areas for improvement and adequate preparation time between attempts.

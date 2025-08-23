@@ -71,6 +71,22 @@ export const headerData: HeaderProps = {
           label: 'Resident Permit',
           href: '/resident-permit',
         },
+        {
+          label: 'Convert International License',
+          href: '/convert-international-license',
+        },
+        {
+          label: 'PTE & IELTS No Exam',
+          href: '/pte-ielts-no-exam',
+        },
+        {
+          label: 'Life in the UK Test',
+          href: '/life-in-uk-test',
+        },
+        {
+          label: 'Convert Provisional License',
+          href: '/convert-provisional-license',
+        },
       ],
     },
     {
@@ -112,6 +128,10 @@ export const footerData: FooterProps = {
         { label: 'PTE Certificate', href: '/certificate-of-naturalization' },
         { label: 'UK Marriage Certificate', href: '/marriage-certificate' },
         { label: 'Complete Document Package', href: '/complete-document-package' },
+        { label: 'Convert International License', href: '/convert-international-license' },
+        { label: 'PTE & IELTS No Exam', href: '/pte-ielts-no-exam' },
+        { label: 'Life in the UK Test', href: '/life-in-uk-test' },
+        { label: 'Convert Provisional License', href: '/convert-provisional-license' },
       ],
     },
     {
