@@ -60,19 +60,22 @@ export const contact2Contact: ContactProps = {
       {
         type: 'text',
         name: 'name',
-        placeholder: 'Your full name',
+        label: 'Full Name',
+        placeholder: 'Enter your full name',
         autocomplete: 'given-name',
       },
       {
         type: 'email',
         name: 'email',
-        placeholder: 'Your email address',
+        label: 'Email Address',
+        placeholder: 'Enter your email address',
         autocomplete: 'email',
       },
       {
         type: 'tel',
         name: 'phone',
-        placeholder: 'Your phone number',
+        label: 'Phone Number',
+        placeholder: 'Enter your phone number',
         autocomplete: 'tel',
       },
     ],
@@ -115,6 +118,7 @@ export const contact2Contact: ContactProps = {
       cols: 30,
       rows: 5,
       name: 'message',
+      label: 'Message',
       placeholder: 'Tell us about your document requirements and any specific questions...',
     },
     checkboxes: [

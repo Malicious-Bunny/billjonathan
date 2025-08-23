@@ -15,7 +15,7 @@ const Form = ({
   btnPosition,
   containerClass,
 }: FormProps) => {
-  const [inputValues, setInputValues] = useState([]);
+  const [inputValues, setInputValues] = useState({});
   const [radioBtnValue, setRadioBtnValue] = useState('');
   const [textareaValues, setTextareaValues] = useState('');
   const [checkedState, setCheckedState] = useState<boolean[]>(new Array(checkboxes && checkboxes.length).fill(false));
@@ -51,8 +51,47 @@ const Form = ({
     });
   };
 
+  // Handle form submission with mailto
+  const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+
+    // Get the selected service
+    const selectedRadio = radioBtns?.radios.find((_, index) => radioBtnValue === `value${index}`);
+    const selectedService = selectedRadio ? selectedRadio.label : 'Not specified';
+
+    // Get checkbox status
+    const agreementChecked = checkedState[0] ? 'Yes' : 'No';
+
+    // Construct email body
+    const emailBody = `
+New Consultation Request from Anderson Carl Website
+
+Customer Information:
+- Name: ${inputValues['name'] || 'Not provided'}
+- Email: ${inputValues['email'] || 'Not provided'}
+- Phone: ${inputValues['phone'] || 'Not provided'}
+
+Service Requested: ${selectedService}
+
+Message: ${textareaValues || 'No message provided'}
+
+Marketing Agreement: ${agreementChecked}
+
+---
+This message was sent via the Anderson Carl Consultancy contact form.
+    `.trim();
+
+    // Create mailto link
+    const subject = encodeURIComponent('New Consultation Request - Anderson Carl');
+    const body = encodeURIComponent(emailBody);
+    const mailtoLink = `mailto:support@andersoncarlconsultancy.uk?subject=${subject}&body=${body}`;
+
+    // Open email client
+    window.location.href = mailtoLink;
+  };
+
   return (
-    <form id="contactForm" className={twMerge('', containerClass)}>
+    <form id="contactForm" className={twMerge('', containerClass)} onSubmit={handleSubmit}>
       {title && <h2 className={`${description ? 'mb-2' : 'mb-4'} text-2xl font-bold`}>{title}</h2>}
       {description && <p className="mb-4">{description}</p>}
       <div className="mb-6">
@@ -60,40 +99,42 @@ const Form = ({
         <div className="mx-0 mb-1 sm:mb-4">
           {inputs &&
             inputs.map(({ type, label, name, autocomplete, placeholder }, index) => (
-              <div key={`item-input-${index}`} className="mx-0 mb-1 sm:mb-4">
-                <label htmlFor={name} className="pb-1 text-xs uppercase tracking-wider">
-                  {label}
-                </label>
+              <div key={`item-input-${index}`} className="mx-0 mb-4 sm:mb-6">
+                {label && (
+                  <label htmlFor={name} className="block mb-2 text-sm font-medium text-gray-700 dark:text-gray-300">
+                    {label}
+                  </label>
+                )}
                 <input
                   type={type}
                   id={name}
                   name={name}
                   autoComplete={autocomplete}
-                  value={inputValues[index]}
+                  value={inputValues[name] || ''}
                   onChange={changeInputValueHandler}
                   placeholder={placeholder}
-                  className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0"
+                  className="w-full rounded-md border border-gray-400 py-3 px-4 shadow-md dark:text-gray-300 focus:border-primary-500 focus:ring-2 focus:ring-primary-500 focus:outline-none"
                 />
               </div>
             ))}
         </div>
         {/* Radio buttons */}
         {radioBtns && (
-          <div className="mx-0 mb-1 sm:mb-3">
-            <span className="pb-1 text-xs uppercase tracking-wider">{radioBtns?.label}</span>
-            <div className="flex flex-wrap">
+          <div className="mx-0 mb-4 sm:mb-6">
+            <label className="block mb-3 text-sm font-medium text-gray-700 dark:text-gray-300">{radioBtns?.label}</label>
+            <div className="space-y-2">
               {radioBtns.radios.map(({ label }, index) => (
-                <div key={`radio-btn-${index}`} className="mr-4 items-baseline">
+                <div key={`radio-btn-${index}`} className="flex items-center">
                   <input
-                    id={label}
+                    id={`radio-${index}`}
                     type="radio"
-                    name={label}
+                    name="service"
                     value={`value${index}`}
                     checked={radioBtnValue === `value${index}`}
                     onChange={changeRadioBtnsHandler}
-                    className="cursor-pointer"
+                    className="cursor-pointer w-4 h-4 text-primary-600 bg-gray-100 border-gray-300 focus:ring-primary-500 dark:focus:ring-primary-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                   />
-                  <label htmlFor={label} className="ml-2">
+                  <label htmlFor={`radio-${index}`} className="ml-3 text-sm text-gray-700 dark:text-gray-300 cursor-pointer">
                     {label}
                   </label>
                 </div>
@@ -103,10 +144,12 @@ const Form = ({
         )}
         {/* Textarea */}
         {textarea && (
-          <div className={`mx-0 mb-1 sm:mb-4`}>
-            <label htmlFor={textarea.name} className="pb-1 text-xs uppercase tracking-wider">
-              {textarea.label}
-            </label>
+          <div className={`mx-0 mb-4 sm:mb-6`}>
+            {textarea.label && (
+              <label htmlFor={textarea.name} className="block mb-2 text-sm font-medium text-gray-700 dark:text-gray-300">
+                {textarea.label}
+              </label>
+            )}
             <textarea
               id={textarea.name}
               name={textarea.name}
@@ -115,24 +158,24 @@ const Form = ({
               value={textareaValues}
               onChange={(e) => changeTextareaHandler(e)}
               placeholder={textarea.placeholder}
-              className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0"
+              className="w-full rounded-md border border-gray-400 py-3 px-4 shadow-md dark:text-gray-300 focus:border-primary-500 focus:ring-2 focus:ring-primary-500 focus:outline-none"
             />
           </div>
         )}
         {/* Checkboxes */}
         {checkboxes && (
-          <div className="mx-0 mb-1 sm:mb-4">
+          <div className="mx-0 mb-4 sm:mb-6">
             {checkboxes.map(({ label }, index) => (
-              <div key={`checkbox-${index}`} className="mx-0 my-1 flex items-baseline">
+              <div key={`checkbox-${index}`} className="flex items-center">
                 <input
-                  id={label}
+                  id={`checkbox-${index}`}
                   type="checkbox"
-                  name={label}
+                  name="agreement"
                   checked={checkedState[index]}
                   onChange={() => changeCheckboxHandler(index)}
-                  className="cursor-pointer"
+                  className="cursor-pointer w-4 h-4 text-primary-600 bg-gray-100 border-gray-300 rounded focus:ring-primary-500 dark:focus:ring-primary-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                 />
-                <label htmlFor={label} className="ml-2">
+                <label htmlFor={`checkbox-${index}`} className="ml-3 text-sm text-gray-700 dark:text-gray-300 cursor-pointer">
                   {label}
                 </label>
               </div>
@@ -144,7 +187,7 @@ const Form = ({
         <div
           className={`${btnPosition === 'left' ? 'text-left' : btnPosition === 'right' ? 'text-right' : 'text-center'}`}
         >
-          <button type={btn.type || 'button'} className="btn btn-primary sm:mb-0">
+          <button type={btn.type || 'submit'} className="btn btn-primary sm:mb-0 px-8 py-3 text-lg">
             {btn.title}
           </button>
         </div>
