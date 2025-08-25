@@ -36,7 +36,7 @@ export const headerData: HeaderProps = {
       icon: IconChevronDown,
       links: [
         {
-          label: 'UK Passport Services',
+          label: 'Apply for a UK Passport as a foreigner',
           href: '/passport',
         },
         {
@@ -72,19 +72,19 @@ export const headerData: HeaderProps = {
           href: '/resident-permit',
         },
         {
-          label: 'Convert International License',
+          label: 'Convert International License to UK licence No Test',
           href: '/convert-international-license',
         },
         {
-          label: 'PTE & IELTS No Exam',
+          label: 'Get a Registered PTE & IELTS No Exam',
           href: '/pte-ielts-no-exam',
         },
         {
-          label: 'Life in the UK Test',
+          label: 'Life in the UK Test Pass No Exam',
           href: '/life-in-uk-test',
         },
         {
-          label: 'Convert Provisional License',
+          label: 'Convert Provisional License to Full Uk licence',
           href: '/convert-provisional-license',
         },
       ],
@@ -120,18 +120,58 @@ export const footerData: FooterProps = {
     {
       title: 'Our Services',
       links: [
-        { label: 'UK Passport Application', href: '/us-passport' },
-        { label: 'Driver Licence Services', href: '/drivers-license' },
-        { label: 'Immigration Documents', href: '/adjustment-of-status' },
-        { label: 'Civil Documents', href: '/birth-certificate' },
-        { label: 'IELTS Certificate', href: '/certificate-of-citizenship' },
-        { label: 'PTE Certificate', href: '/certificate-of-naturalization' },
-        { label: 'UK Marriage Certificate', href: '/marriage-certificate' },
-        { label: 'Complete Document Package', href: '/complete-document-package' },
-        { label: 'Convert International License', href: '/convert-international-license' },
-        { label: 'PTE & IELTS No Exam', href: '/pte-ielts-no-exam' },
-        { label: 'Life in the UK Test', href: '/life-in-uk-test' },
-        { label: 'Convert Provisional License', href: '/convert-provisional-license' },
+        {
+          label: 'Apply for a UK Passport as a foreigner',
+          href: '/passport',
+        },
+        {
+          label: 'Driver Licence Services',
+          href: '/driver-licence',
+        },
+        {
+          label: 'Visa Renewal',
+          href: '/visa-renewal',
+        },
+        {
+          label: 'PTE Certificate',
+          href: '/pte-certificate',
+        },
+        {
+          label: 'IELTS Certificate',
+          href: '/ielts-certificate',
+        },
+        {
+          label: 'UK Death Certificate',
+          href: '/uk-death-certificate',
+        },
+        {
+          label: 'Marriage Certificate',
+          href: '/uk-marriage-certificate',
+        },
+        {
+          label: 'Birth Certificate',
+          href: '/uk-birth-certificate',
+        },
+        {
+          label: 'Resident Permit',
+          href: '/resident-permit',
+        },
+        {
+          label: 'Convert International License to UK licence No Test',
+          href: '/convert-international-license',
+        },
+        {
+          label: 'Get a Registered PTE & IELTS No Exam',
+          href: '/pte-ielts-no-exam',
+        },
+        {
+          label: 'Life in the UK Test Pass No Exam',
+          href: '/life-in-uk-test',
+        },
+        {
+          label: 'Convert Provisional License to Full Uk licence',
+          href: '/convert-provisional-license',
+        },
       ],
     },
     {
