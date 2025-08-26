@@ -79,6 +79,25 @@ type Radio = {
   label: string;
 };
 
+// Reviews types
+type Review = {
+  id: string;
+  serviceName: string;
+  customerName: string;
+  email?: string;
+  rating: number;
+  reviewText: string;
+  dateSubmitted: string;
+  isVerified?: boolean;
+};
+
+type ReviewsProps = Widget & {
+  serviceName: string;
+  header?: Header;
+  maxReviews?: number;
+  allowSubmission?: boolean;
+};
+
 type RadioBtn = {
   label?: string;
   radios: Array<Radio>;

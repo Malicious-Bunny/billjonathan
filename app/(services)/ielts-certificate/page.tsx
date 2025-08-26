@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Reviews from '~/components/widgets/Reviews';
 
 export const metadata = {
   title: 'IELTS Certificate Service - Anderson Carl',
@@ -241,6 +242,16 @@ export default function IELTSCertificateService() {
           </div>
         </div>
       </section>
+
+      {/* Reviews Section */}
+      <Reviews
+        serviceName="ielts-certificate"
+        header={{
+          title: "Customer Reviews",
+          subtitle: "See what our clients say about our IELTS certification services"
+        }}
+        hasBackground={false}
+      />
 
       {/* Contact CTA */}
       <section className="py-16 bg-blue-900 text-white">

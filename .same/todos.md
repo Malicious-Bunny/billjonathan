@@ -1,18 +1,21 @@
 # Todos for Anderson Carl Consultancy Project
 
-## 🎯 Current Task: Contact Form Improvements
-- [x] **Enhanced Contact Form**:
-  - [x] Added proper text labels before all input fields
-  - [x] Updated form to use mailto functionality instead of server submission
-  - [x] Improved form styling with better spacing and focus states
-  - [x] Updated contact data on both contact page and about page
-  - [x] Form now opens email client with pre-filled subject and formatted body
-- [x] **Form Features**:
-  - [x] Professional labels for Name, Email, Phone fields
-  - [x] Service selection radio buttons with better styling
-  - [x] Message textarea with proper label
-  - [x] Checkbox for marketing agreement
-  - [x] mailto integration with all form data formatted in email body
+## 🎯 Current Task: Creating Reviews Component
+- [x] **Reviews Component Development**:
+  - [x] Add review types to shared types
+  - [x] Create Reviews widget component
+  - [x] Implement star rating system
+  - [x] Add review submission form
+  - [x] Set up local storage for review persistence
+  - [x] Style component to match site design
+  - [x] Integrate component into service pages (driver-licence, passport, ielts-certificate)
+  - [x] Test component functionality
+
+## 📋 Next Steps
+- [ ] Add Reviews component to remaining service pages
+- [ ] Add review management/moderation features
+- [ ] Implement review export functionality
+- [ ] Add review analytics/statistics
 
 ## ✅ Completed
 - [x] Successfully cloned the repository from GitHub

@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { ScrollGallery } from '~/components/ui/image-auto-slider';
 import { ImageServiceCard } from '~/components/ui/image-service-card';
+import Reviews from '~/components/widgets/Reviews';
 
 export const metadata = {
   title: 'UK Driver Licence Services - Anderson Carl',
@@ -292,6 +293,16 @@ export default function DriverLicenceService() {
           </div>
         </div>
       </section>
+
+      {/* Reviews Section */}
+      <Reviews
+        serviceName="driver-licence"
+        header={{
+          title: "Customer Reviews",
+          subtitle: "See what our clients say about our driving licence services"
+        }}
+        hasBackground={false}
+      />
 
       {/* Contact CTA */}
       <section className="py-16 bg-primary-900 text-white">

@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { ScrollGallery } from '~/components/ui/image-auto-slider';
+import Reviews from '~/components/widgets/Reviews';
 
 export const metadata = {
   title: 'UK Passport Application Service - Anderson Carl',
@@ -249,6 +250,16 @@ export default function PassportService() {
           </div>
         </div>
       </section>
+
+      {/* Reviews Section */}
+      <Reviews
+        serviceName="passport"
+        header={{
+          title: "Customer Reviews",
+          subtitle: "See what our clients say about our passport services"
+        }}
+        hasBackground={false}
+      />
 
       {/* Contact CTA */}
       <section className="py-16 bg-primary-900 text-white">
