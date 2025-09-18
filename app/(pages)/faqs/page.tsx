@@ -6,8 +6,8 @@ import CallToAction2 from '~/components/widgets/CallToAction2';
 import { heroFaqs, faqs4Faqs, callToActionFaqs } from '~/shared/data/pages/faqs.data';
 
 export const metadata: Metadata = {
-  title: `Frequently Asked Questions - Anderson Carl UK Documents | FAQs`,
-  description: 'Get answers to common questions about UK document services, processing times, and Anderson Carl professional consultation services.',
+  title: `Frequently Asked Questions - Bill Jonathan UK Documents | FAQs`,
+  description: 'Get answers to common questions about UK document services, processing times, and Bill Jonathan professional consultation services.',
 };
 
 export default function FAQPage() {

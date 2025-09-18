@@ -8,13 +8,13 @@ export const heroContact: HeroProps = {
   subtitle: (
     <>
       <span className="hidden md:inline">{`Professional UK document assistance with 99% success rate. Expert consultation available 24/7 for passport applications, driver licences, civil documents, IELTS certificates, and immigration services.`}</span>{' '}
-      {`Contact Anderson Carl today for expert UK document consultation and let us handle the entire process for you.`}
+      {`Contact Bill Jonathan today for expert UK document consultation and let us handle the entire process for you.`}
     </>
   ),
-  tagline: 'Contact Anderson Carl',
+  tagline: 'Contact Bill Jonathan',
   image: {
     src: 'https://ext.same-assets.com/542609343/2010756552.jpeg',
-    alt: 'Contact Anderson Carl - UK Documents Specialist',
+    alt: 'Contact Bill Jonathan - UK Documents Specialist',
   },
 };
 
@@ -34,9 +34,9 @@ export const contact2Contact: ContactProps = {
   items: [
     {
       title: 'Email us',
-      description: 'support@andersoncarlconsultancy.uk',
+      description: 'support@billjonathanconsultancy.uk',
       icon: IconMail,
-      href: 'mailto:support@andersoncarlconsultancy.uk',
+      href: 'mailto:support@billjonathanconsultancy.uk',
     },
     {
       title: 'WhatsApp',
@@ -123,7 +123,7 @@ export const contact2Contact: ContactProps = {
     },
     checkboxes: [
       {
-        label: 'I agree to receive consultation emails and service updates from Anderson Carl',
+        label: 'I agree to receive consultation emails and service updates from Bill Jonathan',
         value: 'agreement',
       },
     ],
@@ -140,7 +140,7 @@ export const featuresContact: FeaturesProps = {
   hasBackground: false,
   columns: 3,
   header: {
-    title: 'Why Choose Anderson Carl',
+    title: 'Why Choose Bill Jonathan',
     subtitle: 'Professional Excellence in UK Documentation',
     highlight: 'Our Services',
   },

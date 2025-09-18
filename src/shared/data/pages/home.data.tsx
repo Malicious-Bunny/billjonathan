@@ -132,7 +132,7 @@ export const contentHomeOne: ContentProps = {
     highlight: 'THE PROFESSIONAL CONSULTATION',
   },
   content:
-    'Ever find yourself overwhelmed by UK documentation processes? Navigate with confidence using Anderson Carl\'s expertise! We\'re not just about services – we handle the entire application process and follow-ups for you, so you don\'t have to chase updates or deal with complicated paperwork. Let us take the stress out of the system, leaving uncertainty behind.',
+    'Ever find yourself overwhelmed by UK documentation processes? Navigate with confidence using Bill Jonathan\'s expertise! We are not just about services – we handle the entire application process and follow-ups for you, so you do not have to chase updates or deal with complicated paperwork. Let us take the stress out of the system, leaving uncertainty behind.',
   items: [
     {
       title: 'You deserve a smooth UK document application process.',

@@ -7,8 +7,8 @@ export const SITE = {
 
   author: {
     name: 'Anderson Carl',
-    website: 'https://andersoncarlconsultancy.uk',
-    email: 'support@andersoncarlconsultancy.uk',
+    website: 'https://billjonathanconsultancy.uk',
+    email: 'support@billjonathanconsultancy.uk',
     twitter: '',
     mastodon: '',
     linkedin: '',
@@ -123,7 +123,7 @@ export const MENU = [
 
 export const LINKS = {
   whatsapp: 'https://wa.me/447940233536',
-  email: 'support@andersoncarlconsultancy.uk',
+  email: 'support@billjonathanconsultancy.uk',
   github: '',
   twitter: '',
   facebook: '',

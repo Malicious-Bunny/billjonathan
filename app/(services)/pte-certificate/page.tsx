@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { ScrollGallery } from '~/components/ui/image-auto-slider';
 
 export const metadata = {
-  title: 'PTE Certificate Service - Anderson Carl',
+  title: 'PTE Certificate Service - Bill Jonathan',
   description: 'Professional assistance with PTE certification processes. Expert consultation and document handling services.',
 };
 
@@ -142,7 +142,7 @@ export default function PTECertificateService() {
                   Start Your PTE Journey
                 </Link>
                 <a
-                  href="https://wa.me/447000000000?text=Hello Anderson Carl, I need assistance with PTE certification."
+                  href="https://wa.me/447000000000?text=Hello Bill Jonathan, I need assistance with PTE certification."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-secondary w-full text-center block text-lg py-3"
@@ -250,7 +250,7 @@ export default function PTECertificateService() {
             <h2 className="text-3xl font-bold mb-6">Ready to Start Your PTE Journey?</h2>
             <p className="text-xl text-blue-200 mb-8">
               Get professional assistance with your PTE Academic certification today.
-              Contact Anderson Carl for expert consultation and support.
+              Contact Bill Jonathan for expert consultation and support.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact" className="btn-primary text-lg px-8 py-4">

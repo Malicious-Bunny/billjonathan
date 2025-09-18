@@ -3,7 +3,7 @@ const { getAllPosts } = require('./src/utils/blog.ts');
 
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: SITE.author.website || 'https://andersoncarlconsultancy.uk',
+  siteUrl: SITE.author.website || 'https://billjonathanconsultancy.uk',
   generateRobotsTxt: true,
   generateIndexSitemap: false,
   additionalPaths: async (config) => {
@@ -23,7 +23,7 @@ module.exports = {
       },
     ],
     additionalSitemaps: [
-      `${SITE.author.website || 'https://andersoncarlconsultancy.uk'}/sitemap.xml`,
+      `${SITE.author.website || 'https://billjonathanconsultancy.uk'}/sitemap.xml`,
     ],
   },
 };

@@ -64,7 +64,7 @@ const Form = ({
 
     // Construct email body
     const emailBody = `
-New Consultation Request from Anderson Carl Website
+New Consultation Request from Bill Jonathan Website
 
 Customer Information:
 - Name: ${inputValues['name'] || 'Not provided'}
@@ -78,13 +78,13 @@ Message: ${textareaValues || 'No message provided'}
 Marketing Agreement: ${agreementChecked}
 
 ---
-This message was sent via the Anderson Carl Consultancy contact form.
+This message was sent via the Bill Jonathan Consultancy contact form.
     `.trim();
 
     // Create mailto link
-    const subject = encodeURIComponent('New Consultation Request - Anderson Carl');
+    const subject = encodeURIComponent('New Consultation Request - Bill Jonathan');
     const body = encodeURIComponent(emailBody);
-    const mailtoLink = `mailto:support@andersoncarlconsultancy.uk?subject=${subject}&body=${body}`;
+    const mailtoLink = `mailto:support@billjonathanconsultancy.uk?subject=${subject}&body=${body}`;
 
     // Open email client
     window.location.href = mailtoLink;

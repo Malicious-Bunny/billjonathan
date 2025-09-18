@@ -3,7 +3,7 @@ import { SITE } from '~/config.js';
 
 export async function GET() {
   const posts = getAllPosts().slice(0, 20); // Get latest 20 posts
-  const siteUrl = SITE.author.website || 'https://andersoncarlconsultancy.uk';
+  const siteUrl = SITE.author.website || 'https://billjonathanconsultancy.uk';
 
   const rssXml = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">

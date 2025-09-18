@@ -4,7 +4,7 @@ import { ImageServiceCard } from '~/components/ui/image-service-card';
 import Reviews from '~/components/widgets/Reviews';
 
 export const metadata = {
-  title: 'UK Driver Licence Services - Anderson Carl',
+  title: 'UK Driver Licence Services - Bill Jonathan',
   description: 'Professional assistance with UK driver licence applications, renewals, and replacements. Expert consultation and document handling services.',
 };
 
@@ -144,7 +144,7 @@ export default function DriverLicenceService() {
                   Start Your Application
                 </Link>
                 <a
-                  href="https://wa.me/447000000000?text=Hello Anderson Carl, I need assistance with UK driving licence services."
+                  href="https://wa.me/447000000000?text=Hello Bill Jonathan, I need assistance with UK driving licence services."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-secondary w-full text-center block text-lg py-3"
@@ -311,7 +311,7 @@ export default function DriverLicenceService() {
             <h2 className="text-3xl font-bold mb-6">Ready to Get Your Driving Licence Sorted?</h2>
             <p className="text-xl text-primary-200 mb-8">
               Get professional assistance with your UK driving licence needs today.
-              Contact Anderson Carl for expert consultation and support.
+              Contact Bill Jonathan for expert consultation and support.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact" className="btn-primary text-lg px-8 py-4">

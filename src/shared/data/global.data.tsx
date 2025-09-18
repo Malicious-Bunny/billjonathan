@@ -15,8 +15,8 @@ import { AnnouncementProps, FooterProps, HeaderProps } from '../types';
 export const announcementData: AnnouncementProps = {
   title: '24 HOUR SERVICE AVAILABLE',
   callToAction: {
-    text: 'Email Us: support@andersoncarlconsultancy.uk »',
-    href: 'mailto:support@andersoncarlconsultancy.uk',
+    text: 'Email Us: support@billjonathanconsultancy.uk »',
+    href: 'mailto:support@billjonathanconsultancy.uk',
   },
   callToAction2: {
     text: 'WhatsApp: +44 7940 233536',
@@ -56,18 +56,6 @@ export const headerData: HeaderProps = {
           href: '/ielts-certificate',
         },
         {
-          label: 'UK Death Certificate',
-          href: '/uk-death-certificate',
-        },
-        {
-          label: 'Marriage Certificate',
-          href: '/uk-marriage-certificate',
-        },
-        {
-          label: 'Birth Certificate',
-          href: '/uk-birth-certificate',
-        },
-        {
           label: 'Resident Permit',
           href: '/resident-permit',
         },
@@ -100,8 +88,8 @@ export const headerData: HeaderProps = {
   ],
   actions: [
     {
-      text: 'support@andersoncarlconsultancy.uk',
-      href: 'mailto:support@andersoncarlconsultancy.uk',
+      text: 'support@billjonathanconsultancy.uk',
+      href: 'mailto:support@billjonathanconsultancy.uk',
       icon: IconMail,
     },
   ],
@@ -113,7 +101,7 @@ export const headerData: HeaderProps = {
 
 // Footer data
 export const footerData: FooterProps = {
-  title: 'Anderson Carl',
+  title: 'Bill Jonathan',
   subtitle: 'Life in the UK Documents Specialist',
   description: 'Professional assistance with UK documentation processes. We simplify your Life in the UK document applications and handle all the paperwork for you, ensuring a stress-free experience.',
   columns: [
@@ -139,18 +127,6 @@ export const footerData: FooterProps = {
         {
           label: 'IELTS Certificate',
           href: '/ielts-certificate',
-        },
-        {
-          label: 'UK Death Certificate',
-          href: '/uk-death-certificate',
-        },
-        {
-          label: 'Marriage Certificate',
-          href: '/uk-marriage-certificate',
-        },
-        {
-          label: 'Birth Certificate',
-          href: '/uk-birth-certificate',
         },
         {
           label: 'Resident Permit',
@@ -194,7 +170,7 @@ export const footerData: FooterProps = {
   socials: [
     { label: 'WhatsApp', icon: IconBrandWhatsapp, href: 'https://wa.me/447940233536' },
   ],
-  footNote: '© 2025 Anderson Carl Life in the UK Documents. All rights reserved. | Professional documentation services for UK residents.',
+  footNote: '© 2025 Bill Jonathan Life in the UK Documents. All rights reserved. | Professional documentation services for UK residents.',
   theme: 'dark',
 };
 
@@ -204,15 +180,15 @@ export const contactData = {
   header: {
     title: 'Get A Consultation',
     subtitle: 'Professional UK Document Assistance',
-    highlight: 'Contact Anderson Carl',
+    highlight: 'Contact Bill Jonathan',
   },
   content: 'We are here to answer your questions 24/7. Get expert consultation for all your UK document needs.',
   items: [
     {
       title: 'Email us',
-      description: 'support@andersoncarlconsultancy.uk',
+      description: 'support@billjonathanconsultancy.uk',
       icon: IconMail,
-      href: 'mailto:support@andersoncarlconsultancy.uk',
+      href: 'mailto:support@billjonathanconsultancy.uk',
     },
     {
       title: 'WhatsApp',

@@ -1,7 +1,7 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'UK Visa Renewal Service - Anderson Carl',
+  title: 'UK Visa Renewal Service - Bill Jonathan',
   description: 'Professional assistance with UK visa renewal applications. Expert consultation and document handling services.',
 };
 
@@ -139,7 +139,7 @@ export default function VisaRenewalService() {
                   Start Your Renewal
                 </Link>
                 <a
-                  href="https://wa.me/447000000000?text=Hello Anderson Carl, I need assistance with UK visa renewal."
+                  href="https://wa.me/447000000000?text=Hello Bill Jonathan, I need assistance with UK visa renewal."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-secondary w-full text-center block text-lg py-3"
@@ -247,7 +247,7 @@ export default function VisaRenewalService() {
             <h2 className="text-3xl font-bold mb-6">Ready to Renew Your UK Visa?</h2>
             <p className="text-xl text-primary-200 mb-8">
               Get professional assistance with your UK visa renewal today.
-              Contact Anderson Carl for expert consultation and support.
+              Contact Bill Jonathan for expert consultation and support.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact" className="btn-primary text-lg px-8 py-4">

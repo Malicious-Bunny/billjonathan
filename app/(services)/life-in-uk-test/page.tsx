@@ -3,7 +3,7 @@ import { ScrollGallery } from '~/components/ui/image-auto-slider';
 import { ImageServiceCard } from '~/components/ui/image-service-card';
 
 export const metadata = {
-  title: 'Life in the UK Test Pass - No Exam Required - Anderson Carl',
+  title: 'Life in the UK Test Pass - No Exam Required - Bill Jonathan',
   description: 'Pass the Life in the UK test without taking the exam. Professional assistance with UK citizenship and settlement applications.',
 };
 

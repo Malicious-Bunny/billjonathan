@@ -1,7 +1,7 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'UK Resident Permit Service - Anderson Carl',
+  title: 'UK Resident Permit Service - Bill Jonathan',
   description: 'Professional assistance with UK residence permit applications. Expert consultation and document handling services.',
 };
 
@@ -139,7 +139,7 @@ export default function ResidentPermitService() {
                   Start Your Application
                 </Link>
                 <a
-                  href="https://wa.me/447000000000?text=Hello Anderson Carl, I need assistance with UK residence permit application."
+                  href="https://wa.me/447000000000?text=Hello Bill Jonathan, I need assistance with UK residence permit application."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-secondary w-full text-center block text-lg py-3"
@@ -247,7 +247,7 @@ export default function ResidentPermitService() {
             <h2 className="text-3xl font-bold mb-6">Ready to Start Your Residence Permit Application?</h2>
             <p className="text-xl text-blue-200 mb-8">
               Get professional assistance with your UK residence permit application today.
-              Contact Anderson Carl for expert consultation and support.
+              Contact Bill Jonathan for expert consultation and support.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact" className="btn-primary text-lg px-8 py-4">

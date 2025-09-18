@@ -3,7 +3,7 @@ import { ScrollGallery } from '~/components/ui/image-auto-slider';
 import { ImageServiceCard } from '~/components/ui/image-service-card';
 
 export const metadata = {
-  title: 'Get Registered PTE and IELTS Certificate - No Exam Required - Anderson Carl',
+  title: 'Get Registered PTE and IELTS Certificate - No Exam Required - Bill Jonathan',
   description: 'Get genuine registered PTE and IELTS certificates without taking exams. Professional assistance with language certification for UK immigration and education.',
 };
 

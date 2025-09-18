@@ -42,10 +42,10 @@ import {
 
 // Hero2 data on About page *******************
 export const hero2About: HeroProps = {
-  title: 'Meet Anderson Carl: Your Trusted UK Documents Expert',
+  title: 'Meet Bill Jonathan: Your Trusted UK Documents Expert',
   subtitle:
-    'Professional assistance with UK documentation processes. We simplify your Life in the UK document applications and handle all the paperwork for you, ensuring a stress-free experience. With 8+ years of experience and over 5,000 successful applications, Anderson Carl has established himself as the leading UK documents specialist.',
-  tagline: 'About Anderson Carl',
+    'Professional assistance with UK documentation processes. We simplify your Life in the UK document applications and handle all the paperwork for you, ensuring a stress-free experience. With 8+ years of experience and over 5,000 successful applications, Bill Jonathan has established himself as the leading UK documents specialist.',
+  tagline: 'About Bill Jonathan',
   callToAction: {
     text: 'Get Free Consultation',
     href: '/contact',
@@ -53,11 +53,11 @@ export const hero2About: HeroProps = {
   },
   callToAction2: {
     text: 'Email Anderson',
-    href: 'mailto:support@andersoncarlconsultancy.uk',
+    href: 'mailto:support@billjonathanconsultancy.uk',
   },
   image: {
     src: 'https://ext.same-assets.com/542609343/2010756552.jpeg',
-    alt: 'Anderson Carl - UK Documents Specialist',
+    alt: 'Bill Jonathan - UK Documents Specialist',
   },
 };
 
@@ -91,7 +91,7 @@ export const featuresAbout: FeaturesProps = {
   hasBackground: false,
   columns: 4,
   header: {
-    title: 'Why Choose Anderson Carl',
+    title: 'Why Choose Bill Jonathan',
     subtitle: 'Professional Excellence in UK Documentation',
     highlight: 'Our Expertise',
   },
@@ -117,7 +117,7 @@ export const featuresAbout: FeaturesProps = {
     {
       title: 'Reliable & Confidential',
       description:
-        'With Anderson Carl, rest assured that your application is in capable hands. We prioritize accuracy, timeliness, and confidentiality to ensure a stress-free experience.',
+        'With Bill Jonathan, rest assured that your application is in capable hands. We prioritize accuracy, timeliness, and confidentiality to ensure a stress-free experience.',
       icon: IconShield,
     },
   ],
@@ -128,17 +128,17 @@ export const teamAbout: TeamProps = {
   id: 'team-on-about',
   hasBackground: false,
   header: {
-    title: 'Meet Anderson Carl',
+    title: 'Meet Bill Jonathan',
     subtitle: 'Life in the UK Documents Specialist',
     highlight: 'Professional Team',
   },
   teams: [
     {
-      name: 'Anderson Carl',
+      name: 'Bill Jonathan',
       occupation: 'UK Documents Specialist & Founder',
       image: {
         src: 'https://ext.same-assets.com/542609343/2010756552.jpeg',
-        alt: 'Anderson Carl',
+        alt: 'Bill Jonathan',
       },
       items: [
         {
@@ -167,7 +167,7 @@ export const teamAbout: TeamProps = {
         },
         {
           icon: IconMail,
-          href: 'mailto:support@andersoncarlconsultancy.uk',
+          href: 'mailto:support@billjonathanconsultancy.uk',
         },
       ],
     },
@@ -211,7 +211,7 @@ export const stepsAbout: StepsProps = {
   ],
   image: {
     src: 'https://ext.same-assets.com/542609343/2010756552.jpeg',
-    alt: 'Anderson Carl Work Process',
+    alt: 'Bill Jonathan Work Process',
   },
   callToAction: {
     text: 'Start Your Application',
@@ -226,17 +226,17 @@ export const contactAbout: ContactProps = {
   hasBackground: false,
   header: {
     title: 'Get Professional UK Document Assistance',
-    subtitle: 'Contact Anderson Carl Today',
+    subtitle: 'Contact Bill Jonathan Today',
     highlight: '24/7 Support Available',
   },
   content:
-    'Ready to streamline your UK document applications? Contact Anderson Carl for professional consultation and let us handle the entire process for you. We\'re available 24/7 to answer your questions and provide expert guidance.',
+    'Ready to streamline your UK document applications? Contact Bill Jonathan for professional consultation and let us handle the entire process for you. We are available 24/7 to answer your questions and provide expert guidance.',
   items: [
     {
       title: 'Email us',
-      description: 'support@andersoncarlconsultancy.uk',
+      description: 'support@billjonathanconsultancy.uk',
       icon: IconMail,
-      href: 'mailto:support@andersoncarlconsultancy.uk',
+      href: 'mailto:support@billjonathanconsultancy.uk',
     },
     {
       title: 'WhatsApp',
@@ -311,7 +311,7 @@ export const contactAbout: ContactProps = {
     },
     checkboxes: [
       {
-        label: 'I agree to receive consultation emails and service updates from Anderson Carl',
+        label: 'I agree to receive consultation emails and service updates from Bill Jonathan',
         value: 'agreement',
       },
     ],

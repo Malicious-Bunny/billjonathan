@@ -15,8 +15,8 @@ import {
 } from '~/shared/data/pages/about.data';
 
 export const metadata: Metadata = {
-  title: `About Anderson Carl - UK Documents Specialist | Professional UK Document Consultation Services`,
-  description: 'Learn about Anderson Carl, UK Documents Specialist with 8+ years experience, 99% success rate, and 5000+ applications processed. Expert UK passport, driver licence, and civil document services.',
+  title: `About Bill Jonathan - UK Documents Specialist | Professional UK Document Consultation Services`,
+  description: 'Learn about Bill Jonathan, UK Documents Specialist with 8+ years experience, 99% success rate, and 5000+ applications processed. Expert UK passport, driver licence, and civil document services.',
 };
 
 const Page = () => {

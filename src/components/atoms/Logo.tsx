@@ -11,7 +11,7 @@ const Logo = () => (
       {/* Logo Text */}
       <div className="flex flex-col">
         <span className="text-xl md:text-2xl font-bold text-neutral-warm-900 tracking-tight leading-none">
-          Anderson Carl
+          Bill Jonathan
         </span>
         <span className="text-sm font-medium text-primary-700 tracking-wider leading-none">
           Life in the UK Documents

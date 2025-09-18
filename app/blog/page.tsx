@@ -8,10 +8,10 @@ import Headline from '~/components/common/Headline';
 
 export const metadata: Metadata = {
   title: `Blog | ${SITE.name} - UK Document Insights & Updates`,
-  description: 'Stay updated with the latest UK document requirements, immigration news, and expert insights from Anderson Carl Consultancy. Professional guidance for passport, visa, and certificate applications.',
+  description: 'Stay updated with the latest UK document requirements, immigration news, and expert insights from Bill Jonathan Consultancy. Professional guidance for passport, visa, and certificate applications.',
   openGraph: {
     title: `Blog | ${SITE.name} - UK Document Insights & Updates`,
-    description: 'Stay updated with the latest UK document requirements, immigration news, and expert insights from Anderson Carl Consultancy.',
+    description: 'Stay updated with the latest UK document requirements, immigration news, and expert insights from Bill Jonathan Consultancy.',
     url: `${SITE.author.website}/blog`,
     siteName: SITE.name,
     images: [
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
         url: '/lawyer-consultation.jpg',
         width: 1200,
         height: 630,
-        alt: 'Anderson Carl Blog - UK Document Insights',
+        alt: 'Bill Jonathan Blog - UK Document Insights',
       },
     ],
     locale: 'en_GB',
