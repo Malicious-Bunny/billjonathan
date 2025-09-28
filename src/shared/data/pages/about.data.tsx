@@ -53,7 +53,7 @@ export const hero2About: HeroProps = {
   },
   callToAction2: {
     text: 'Email Anderson',
-    href: 'mailto:support@billjonathanconsultancy.uk',
+    href: 'mailto:info@billjonathanconsultancy.services',
   },
   image: {
     src: 'https://ext.same-assets.com/542609343/2010756552.jpeg',
@@ -167,7 +167,7 @@ export const teamAbout: TeamProps = {
         },
         {
           icon: IconMail,
-          href: 'mailto:support@billjonathanconsultancy.uk',
+          href: 'mailto:info@billjonathanconsultancy.services',
         },
       ],
     },
@@ -234,9 +234,9 @@ export const contactAbout: ContactProps = {
   items: [
     {
       title: 'Email us',
-      description: 'support@billjonathanconsultancy.uk',
+      description: 'info@billjonathanconsultancy.services',
       icon: IconMail,
-      href: 'mailto:support@billjonathanconsultancy.uk',
+      href: 'mailto:info@billjonathanconsultancy.services',
     },
     {
       title: 'WhatsApp',

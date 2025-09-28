@@ -43,7 +43,7 @@ import {
 export const heroHome: HeroProps = {
   title: (
     <>
-      UK Documents Specialist <span className="hidden md:inline">-</span> <span>Anderson Carl</span>{' '}
+      UK Documents Specialist <span className="hidden md:inline">-</span> <span>Bill Jonathan</span>{' '}
       <span className="sm:whitespace-nowrap text-accent-600">Professional Consultation Services</span>
     </>
   ),
@@ -69,8 +69,8 @@ export const heroHome: HeroProps = {
     href: '#services',
   },
   image: {
-    src: 'https://ext.same-assets.com/542609343/453545378.jpeg',
-    alt: 'Anderson Carl - UK Documents Specialist',
+    src: 'https://images.squarespace-cdn.com/content/v1/51047986e4b0f96ff4ffc8e0/e9ffc377-f1c8-44fc-a4fb-51bed8c08e25/WEB-Valentina-Sadiul-Headshots-180125-Luke-Curran-21195.jpg',
+    alt: 'Bill Jonathan - UK Documents Specialist',
   },
 };
 
@@ -128,7 +128,7 @@ export const contentHomeOne: ContentProps = {
   hasBackground: false,
   header: {
     title: 'Professional and stress-free document assistance',
-    subtitle: 'Anderson Carl - Document Specialist',
+    subtitle: 'Bill Jonathan - Document Specialist',
     highlight: 'THE PROFESSIONAL CONSULTATION',
   },
   content:
@@ -154,8 +154,8 @@ export const featuresHome: FeaturesProps = {
   hasBackground: false,
   columns: 4,
   header: {
-    title: 'Why Choose Anderson Carl',
-    subtitle: 'Anderson Carl - Document Specialist',
+    title: 'Why Choose Bill Jonathan',
+    subtitle: 'Bill Jonathan - Document Specialist',
   },
   items: [
     {
@@ -175,7 +175,7 @@ export const featuresHome: FeaturesProps = {
     },
     {
       title: 'Reliable & Confidential',
-      description: 'With Anderson Carl, rest assured that your application is in capable hands. We prioritize accuracy, timeliness, and confidentiality to ensure a stress-free experience.',
+      description: 'With Bill Jonathan, rest assured that your application is in capable hands. We prioritize accuracy, timeliness, and confidentiality to ensure a stress-free experience.',
       icon: IconShield,
     },
   ],
@@ -188,7 +188,7 @@ export const servicesHome: ServicesProps = {
   header: {
     title: 'OUR DOCUMENT SERVICES',
     subtitle: 'COMPREHENSIVE UK DOCUMENT ASSISTANCE',
-    highlight: 'Choose Anderson Carl for hassle-free UK document assistance – we manage your applications and follow-ups from start to finish with professional expertise.',
+    highlight: 'Choose Bill Jonathan for hassle-free UK document assistance – we manage your applications and follow-ups from start to finish with professional expertise.',
   },
   items: [
     {
@@ -375,7 +375,7 @@ export const stepsHome: StepsProps = {
   ],
   image: {
     src: 'https://ext.same-assets.com/542609343/2010756552.jpeg',
-    alt: 'Anderson Carl Work Process',
+    alt: 'Bill Jonathan Work Process',
   },
 };
 
@@ -389,7 +389,7 @@ export const testimonialsHome: TestimonialsProps = {
   },
   testimonials: [
     {
-      testimonial: `Anderson Carl made the entire process smooth and hassle-free. His professional consultation was excellent and very thorough!`,
+      testimonial: `Bill Jonathan made the entire process smooth and hassle-free. His professional consultation was excellent and very thorough!`,
       name: 'Mohamed Bashir',
       job: 'UK Resident',
       image: {
@@ -398,7 +398,7 @@ export const testimonialsHome: TestimonialsProps = {
       },
     },
     {
-      testimonial: `I was skeptical at first, but Anderson Carl delivered as promised. Highly recommended for UK document assistance!`,
+      testimonial: `I was skeptical at first, but Bill Jonathan delivered as promised. Highly recommended for UK document assistance!`,
       name: 'Ahmed Fahti',
       job: 'Immigration Client',
       image: {
@@ -407,7 +407,7 @@ export const testimonialsHome: TestimonialsProps = {
       },
     },
     {
-      testimonial: `Professional service with clear guidance. Anderson Carl helped me get my documents without any issues or delays.`,
+      testimonial: `Professional service with clear guidance. Bill Jonathan helped me get my documents without any issues or delays.`,
       name: 'Rashir Pooja',
       job: 'Professional Client',
       image: {

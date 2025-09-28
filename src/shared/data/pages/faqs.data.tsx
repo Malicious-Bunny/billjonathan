@@ -7,7 +7,7 @@ export const heroFaqs: HeroProps = {
   subtitle: (
     <>
       <span className="hidden md:inline">
-        {`Get answers to common questions about UK document services, processing times, and how Anderson Carl can help with your documentation needs.`}
+        {`Get answers to common questions about UK document services, processing times, and how Bill Jonathan can help with your documentation needs.`}
       </span>{' '}
       Find the information you need to make informed decisions about your UK documentation journey.
     </>
@@ -32,8 +32,8 @@ export const faqs4Faqs: FAQsProps = {
       },
       items: [
         {
-          title: 'What makes Anderson Carl different from other consultants?',
-          description: `Anderson Carl combines 8+ years of hands-on experience with professional qualifications including Level 3 Immigration Law certification and UK Legal Practice Certificate. Our 99% success rate and personalized approach set us apart from other consultants.`,
+          title: 'What makes Bill Jonathan different from other consultants?',
+          description: `Bill Jonathan combines 8+ years of hands-on experience with professional qualifications including Level 3 Immigration Law certification and UK Legal Practice Certificate. Our 99% success rate and personalized approach set us apart from other consultants.`,
         },
         {
           title: 'What types of UK documents can you help with?',
@@ -130,7 +130,7 @@ export const callToActionFaqs: CallToActionProps = {
   hasBackground: true,
   title: 'Still have questions?',
   subtitle:
-    'Contact Anderson Carl for a free consultation. Get personalized answers about your specific UK documentation needs and professional guidance on your application process.',
+    'Contact Bill Jonathan for a free consultation. Get personalized answers about your specific UK documentation needs and professional guidance on your application process.',
   callToAction: {
     text: 'Get Free Consultation',
     href: '/contact',

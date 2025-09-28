@@ -34,9 +34,9 @@ export const contact2Contact: ContactProps = {
   items: [
     {
       title: 'Email us',
-      description: 'support@billjonathanconsultancy.uk',
+      description: 'info@billjonathanconsultancy.services',
       icon: IconMail,
-      href: 'mailto:support@billjonathanconsultancy.uk',
+      href: 'mailto:info@billjonathanconsultancy.services',
     },
     {
       title: 'WhatsApp',

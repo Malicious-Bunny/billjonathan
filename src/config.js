@@ -1,14 +1,14 @@
 export const SITE = {
-  name: 'Anderson Carl',
-  title: 'Anderson Carl - UK Documents Specialist | Passport, Driver Licence & Certificate Services',
+  name: 'Bill Jonathan',
+  title: 'Bill Jonathan - UK Documents Specialist | Passport, Driver Licence & Certificate Services',
   description: 'Professional UK document consultation services with 99% success rate. Fast passport applications (4 days), driver licences (no test), IELTS/PTE certificates, civil documents & immigration services. Expert consultation available 24/7.',
   defaultImage: '/default.jpg',
   defaultTheme: 'system', // Values: "system" | "light" | "dark" | "light:only" | "dark:only"
 
   author: {
-    name: 'Anderson Carl',
-    website: 'https://billjonathanconsultancy.uk',
-    email: 'support@billjonathanconsultancy.uk',
+    name: 'Bill Jonathan',
+    website: 'https://billjonathanconsultancy.services',
+    email: 'info@billjonathanconsultancy.services',
     twitter: '',
     mastodon: '',
     linkedin: '',
@@ -20,7 +20,7 @@ export const SITE = {
   basePathname: '/',
   trailingSlash: false,
 
-  title2: ' | Anderson Carl UK Documents',
+  title2: ' | Bill Jonathan UK Documents',
   titleSeparator: '·',
   titleTemplate: '%s %t %s',
 
@@ -33,8 +33,8 @@ export const SITE = {
   },
 
   manifest: {
-    name: 'Anderson Carl - UK Documents Specialist',
-    short_name: 'Anderson Carl',
+    name: 'Bill Jonathan - UK Documents Specialist',
+    short_name: 'Bill Jonathan',
     theme_color: '#3b82f6',
     background_color: '#ffffff',
     display: 'standalone',
@@ -123,7 +123,7 @@ export const MENU = [
 
 export const LINKS = {
   whatsapp: 'https://wa.me/447940233536',
-  email: 'support@billjonathanconsultancy.uk',
+  email: 'info@billjonathanconsultancy.services',
   github: '',
   twitter: '',
   facebook: '',

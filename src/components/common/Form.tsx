@@ -84,7 +84,7 @@ This message was sent via the Bill Jonathan Consultancy contact form.
     // Create mailto link
     const subject = encodeURIComponent('New Consultation Request - Bill Jonathan');
     const body = encodeURIComponent(emailBody);
-    const mailtoLink = `mailto:support@billjonathanconsultancy.uk?subject=${subject}&body=${body}`;
+    const mailtoLink = `mailto:info@billjonathanconsultancy.services?subject=${subject}&body=${body}`;
 
     // Open email client
     window.location.href = mailtoLink;

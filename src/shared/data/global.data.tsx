@@ -15,8 +15,8 @@ import { AnnouncementProps, FooterProps, HeaderProps } from '../types';
 export const announcementData: AnnouncementProps = {
   title: '24 HOUR SERVICE AVAILABLE',
   callToAction: {
-    text: 'Email Us: support@billjonathanconsultancy.uk »',
-    href: 'mailto:support@billjonathanconsultancy.uk',
+    text: 'Email Us: info@billjonathanconsultancy.services »',
+    href: 'mailto:info@billjonathanconsultancy.services',
   },
   callToAction2: {
     text: 'WhatsApp: +44 7940 233536',
@@ -88,8 +88,8 @@ export const headerData: HeaderProps = {
   ],
   actions: [
     {
-      text: 'support@billjonathanconsultancy.uk',
-      href: 'mailto:support@billjonathanconsultancy.uk',
+      text: 'info@billjonathanconsultancy.services',
+      href: 'mailto:info@billjonathanconsultancy.services',
       icon: IconMail,
     },
   ],
@@ -186,9 +186,9 @@ export const contactData = {
   items: [
     {
       title: 'Email us',
-      description: 'support@billjonathanconsultancy.uk',
+      description: 'info@billjonathanconsultancy.services',
       icon: IconMail,
-      href: 'mailto:support@billjonathanconsultancy.uk',
+      href: 'mailto:info@billjonathanconsultancy.services',
     },
     {
       title: 'WhatsApp',

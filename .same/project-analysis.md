@@ -1,7 +1,7 @@
-# Project Analysis: Anderson Carl Consultancy
+# Project Analysis: Bill Jonathan Consultancy
 
 ## Overview
-This is a Next.js website for "Anderson Carl Consultancy" - a UK document services company that helps people obtain various UK official documents.
+This is a Next.js website for "Bill Jonathan Consultancy" - a UK document services company that helps people obtain various UK official documents.
 
 ## Business Model
 The company claims to offer:

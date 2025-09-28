@@ -27,7 +27,7 @@ import {
 export const heroServices: HeroProps = {
   title: 'Comprehensive UK Document Services',
   subtitle:
-    'Anderson Carl provides expert UK document assistance with 99% success rate. Professional consultation for passport applications, driver licences, civil documents, IELTS certificates, and immigration services. We handle the entire process from start to finish.',
+    'Bill Jonathan provides expert UK document assistance with 99% success rate. Professional consultation for passport applications, driver licences, civil documents, IELTS certificates, and immigration services. We handle the entire process from start to finish.',
   callToAction: {
     text: 'Get Free Consultation',
     href: '/contact',
@@ -39,7 +39,7 @@ export const heroServices: HeroProps = {
   },
   image: {
     src: 'https://ext.same-assets.com/542609343/2010756552.jpeg',
-    alt: 'Anderson Carl UK Document Services',
+    alt: 'Bill Jonathan UK Document Services',
   },
 };
 
@@ -111,7 +111,7 @@ export const contentServicesOne: ContentProps = {
   hasBackground: false,
   header: {
     title: 'Professional and stress-free document assistance',
-    subtitle: 'Anderson Carl - Document Specialist',
+    subtitle: 'Bill Jonathan - Document Specialist',
     highlight: 'THE PROFESSIONAL CONSULTATION',
   },
   content:
@@ -137,7 +137,7 @@ export const featuresServices: FeaturesProps = {
   hasBackground: true,
   columns: 4,
   header: {
-    title: 'Why Choose Anderson Carl',
+    title: 'Why Choose Bill Jonathan',
     subtitle: 'Professional Excellence in UK Documentation',
     highlight: 'Our Expertise',
   },
@@ -159,7 +159,7 @@ export const featuresServices: FeaturesProps = {
     },
     {
       title: 'Reliable & Confidential',
-      description: 'With Anderson Carl, rest assured that your application is in capable hands. We prioritize accuracy, timeliness, and confidentiality.',
+      description: 'With Bill Jonathan, rest assured that your application is in capable hands. We prioritize accuracy, timeliness, and confidentiality.',
       icon: IconShield,
     },
   ],
@@ -176,7 +176,7 @@ export const testimonialsServices: TestimonialsProps = {
   },
   testimonials: [
     {
-      testimonial: `Anderson Carl made the entire process smooth and hassle-free. His professional consultation was excellent and very thorough!`,
+      testimonial: `Bill Jonathan made the entire process smooth and hassle-free. His professional consultation was excellent and very thorough!`,
       name: 'Sarah Williams',
       job: 'UK Resident',
       image: {
@@ -185,7 +185,7 @@ export const testimonialsServices: TestimonialsProps = {
       },
     },
     {
-      testimonial: `I was skeptical at first, but Anderson Carl delivered as promised. Highly recommended for UK document assistance!`,
+      testimonial: `I was skeptical at first, but Bill Jonathan delivered as promised. Highly recommended for UK document assistance!`,
       name: 'Michael Johnson',
       job: 'Immigration Client',
       image: {
@@ -194,7 +194,7 @@ export const testimonialsServices: TestimonialsProps = {
       },
     },
     {
-      testimonial: `Professional service with clear guidance. Anderson Carl helped me get my documents without any issues or delays.`,
+      testimonial: `Professional service with clear guidance. Bill Jonathan helped me get my documents without any issues or delays.`,
       name: 'Emma Thompson',
       job: 'Professional Client',
       image: {
